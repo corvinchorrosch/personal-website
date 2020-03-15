@@ -34,7 +34,6 @@
   
   /* Add a red background color to navbar links on hover */
   .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: white;
     color: black;
     text-align: center;
     align-items: center;
@@ -48,6 +47,7 @@
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
     z-index: 1;
+    align-items: center;
 }
 
 .dropdown-content a {
@@ -61,8 +61,13 @@
 
   .dropdown:hover .dropdown-content {
     display: block;
-    color: black;
+    justify-content: center;
+
 }
+  .dropbtn:hover {
+   background: white;
+  }
+
 
 .navbar a img {
   width: 80px;
